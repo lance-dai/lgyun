@@ -1,10 +1,10 @@
 {
   "name": "lgyun",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "it is tool based fis3 ",
   "main": "index.js",
   "bin": {
-    "layun": "bin/layun.js"
+    "lgyun": "bin/lgyun.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
