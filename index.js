@@ -83,19 +83,23 @@ fis.match('/test/**', {
 
 //在编译期会被内嵌入js文件中，因此不需要发布。
 fis.match('*.tpl',{
+    useCache: false,
     release : false
 });
 
 //velocity模版对应的mock数据不需要发布。
 fis.match('*.html.js', {
+    useCache: false,
     release: false
 });
 // package.json 不需要发布
 fis.match('package.json', {
+    useCache: false,
     release: false
 });
 //文档不需要发布。
 fis.match('*.md', {
+    useCache: false,
     release: false
 });
 

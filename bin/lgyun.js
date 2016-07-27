@@ -25,7 +25,7 @@ function(env) {
     } else {
         fis = require(env.modulePath);
     }
-    fis.set('system.localNPMFolder', path.join(env.cwd, 'node_modules/lgyun'));
-    fis.set('system.globalNPMFolder', path.dirname(__dirname));
+    fis.set('fis.require.paths', path.join(env.cwd, 'node_modules/lgyun'));
+    fis.set('fis.require.paths', path.dirname(__dirname));
     fis.cli.run(argv, env);
 });

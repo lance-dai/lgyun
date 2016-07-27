@@ -1,6 +1,6 @@
 {
   "name": "lgyun",
-  "version": "1.0.3",
+  "version": "1.0.7",
   "description": "it is tool based fis3",
   "main": "index.js",
   "bin": {
